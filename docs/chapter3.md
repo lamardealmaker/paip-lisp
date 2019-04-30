@@ -2136,7 +2136,7 @@ Keywords are constants, and so cannot be used as names of variables.*
 > (defun g (&key x y) (list x y)) => G
 ```
 ```
-> (let ((key s '(:x :y :z)))
+> (let ((keys '(:x :y :z)))
    (g (second keys) 1 (first keys) 2)) => (2 1)
 ```
 *; keyword args can be computed*
